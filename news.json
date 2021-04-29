@@ -1,0 +1,40 @@
+[
+    
+    {
+        "title": "first title",
+        
+        "newsCompany":"Channels"
+
+    },
+    {
+        "title": "second title",
+        
+        "newsCompany":"NTA"
+    },
+    {
+        "title": "New third title",
+        
+        "newsCompany":"SilverBird"
+    },
+    {
+        "title": "New fourth title",
+        
+        "newsCompany":"Lagos Television"
+    },
+    {
+        "title": "New fifth title",
+        
+        "newsCompany":"CNN"
+    },
+    {
+        "title": "New Sixth title",
+        
+        "newsCompany":"Algezera"
+    },
+    {
+        "title": "New Seventh title",
+        
+        "newsCompany":"Arise Tv"
+    }
+
+    ]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css" integrity="sha512-3icgkoIO5qm2D4bGSUkPqeQ96LS8+ukJC7Eqhl1H5B2OJMEnFqLmNDxXVmtV/eq5M65tTDkUYS/Q0P4gvZv+yA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="header">
+        <div class="username">P</div>
+        <div class="google">Google</div>
+        
+       
+        <div class="snapshot" >
+            <i class="fas fa-search" onclick="toggleSearch()"></i>
+            <p>Search</p>
+            <input type="search" name="" id="search" class="search">
+                
+            </div>
+        </div>
+       </div>
+    </nav>
+    <div class="loader" id="loader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        
+    </div>
+    <div class="keywords">
+        <div class="key" onclick="fetchTag(this)" id="tag" >Loading</div>
+      
+        
+    </div>
+    <div class="container" id="container" >
+        
+        <div class="news" id="news" iframe="" >
+            <div class="largeHeart" id="largeHeart">
+                <i class="fas fa-heart"></i>
+            </div>
+            <!-- <div class="newsImage"></div> -->
+            
+            <div class="newsContent" >
+                <div class="title">
+                    Loading...
+                </div>
+                <div class="content">
+                    Loading...
+                </div>
+                <div class="icons">
+                    <i class="far fa-heart" id="heart" onclick="hearts(this);"></i>
+                    <i class="far fa-bell-slash" onclick="bell(this);" id="bell"></i>
+                    <i class="fa fa-arrow-right" id="goLink" onclick="openNews(this)"></i>
+                    
+                </div>
+                <div class="newsCompany">
+                        <div class="image"></div>
+                        <div class="name">
+                           Loading...
+                        </div>
+                    </div>
+            </div>
+            
+    </div>
+
+    
+    </div>
+    </div>
+    <script src="./script.js">
+    </script>
+</body>
+</html>
