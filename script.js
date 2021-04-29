@@ -102,7 +102,7 @@ function fetchNews(sQuery) {
   container.appendChild(contLoader);
   container.querySelector(".loader").style.display = "";
   fetch(
-    `https://newsapi.org/v2/everything?q=${sQuery}&pageSize=50&apiKey=dce437e87b9248fca40319ea046889aa`
+    `https://gnews.io/api/v4/search?q=${sQuery}&token=a6abdea1fb63165ce163220aa3525774`
   )
     .then((response) => response.json())
     .then((data) => {
@@ -121,7 +121,7 @@ function fetchNews(sQuery) {
           data.articles[i].description;
         newsContent.querySelector(".name").innerText =
           data.articles[i].source.name;
-        newsContent.style.backgroundImage = `url(${data.articles[i].urlToImage})`;
+        newsContent.style.backgroundImage = `url(${data.articles[i].image})`;
         // newsContent.classList += " remove"
 
         newsContent
