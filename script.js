@@ -79,10 +79,11 @@ function toggleSearch() {
 
   if (searchInput.style.width != "100%") {
     searchInput.style.width = "100%";
+    searchInput.style.display = ''
     console.log("yee");
   } else {
     searchInput.style.width = "0%";
-    console.log("eey");
+    searchInput.style.display = 'none'
   }
   searchInput.addEventListener("keyup", function (event) {
     if (event.keyCode === 13) {
